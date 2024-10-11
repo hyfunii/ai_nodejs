@@ -1,0 +1,8 @@
+node_modules/
+.wwebjs_cache/
+.wwebjs_auth/
+.env
+chat-history.json
+feedbackdb.js
+index.js
+db.js

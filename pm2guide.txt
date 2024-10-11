@@ -1,0 +1,24 @@
+install pm2 :
+npm install -g pm2
+
+menjalankan aplikasi :
+pm2 start index.js --name "webjs-app"
+
+biar restart otomatis :
+pm2 start index.js --name "webjs-app" --watch
+
+auto start up :
+pm2 startup
+
+menyimpan status aplikasi :
+pm2 save
+
+menghentikan aplikasi :
+pm2 stop webjs-app
+
+menghapus aplikasi :
+pm2 delete webjs-app
+
+menlihat log :
+pm2 logs webjs-app
+pm2 logs 0
